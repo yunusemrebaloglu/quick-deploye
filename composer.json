@@ -1,0 +1,29 @@
+{
+    "name": "yunusemrebaloglu/quick-deploye",
+    "description": "A Laravel package for quick deployment tasks.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "YunusEmreBaloglu\\QuickDeploye\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "YunusEmreBaloglu\\QuickDeploye\\QuickDeployeServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Yunus Emre Baloğlu",
+            "email": "yunus@yunusemre.co"
+        }
+    ],
+    "require": {
+        "php": "^7.3|^8.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
