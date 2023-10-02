@@ -31,6 +31,7 @@ class GetInfoGeneratedData extends Command
         $url = route('quick-deploye.deploye', config('quick-deploye.token'));
 
         // Display the URL to the user
+        $this->info('Using For WEBHOOK');
         $this->info('Generated deployment URL: ' . $url);
     }
 }
