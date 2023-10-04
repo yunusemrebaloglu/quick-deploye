@@ -79,6 +79,13 @@ GET http://your-app-url/your/deployment/route/your-token
 
 ```
 
+To see the active url value:
+
+```
+
+php artisan quick-deploy:generated_info
+
+```
   
 
 QuickDeploye will execute the defined commands and respond with the deployment status.
