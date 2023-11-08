@@ -22,7 +22,7 @@ class QuickDeployeServiceProvider extends ServiceProvider
     // Publish configuration file.
     $this->publishes([
       __DIR__ . '/../config/quick-deploye.php' => config_path('quick-deploye.php'),
-    ], 'config');
+    ], 'quick-deploye-config');
 
     // Load package routes.
     $this->loadRoutesFrom(__DIR__ . '/routes/api.php');
